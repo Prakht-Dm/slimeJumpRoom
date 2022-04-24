@@ -1,0 +1,64 @@
+* { margin: 0; padding: 0; text-decoration: none; font-size: 1em; outline: none; }
+code, kbd, samp, pre, tt, var, textarea, input, select, isindex, listing, xmp, plaintext { 
+font: inherit; font-size: 1em; white-space: normal; }
+dfn, i, cite, var, address, em { font-style: normal; }
+th, b, strong, h1, h2, h3, h4, h5, h6 { font-weight: normal; }
+a, img, a img, iframe, form, fieldset, abbr, acronym, object, applet, table {
+border: none;}
+table { border-collapse: collapse; border-spacing: 0; }
+caption, th, td, center { text-align: left; vertical-align: top; }
+body { line-height: 1; background: white; color: black; }
+q { quotes: "" ""; }
+ul, ol, dir, menu { list-style: none; }
+sub, sup { vertical-align: baseline; }
+a { color: inherit; }
+hr { display: none; } /* we don't need a visual hr in layout */
+/* disables some nasty font attributes in standard browsers */
+font { color: inherit !important; font: inherit !important; color: inherit !important; } 
+marquee { overflow: inherit !important; -moz-binding: none; }
+blink { text-decoration: none; }
+nobr { white-space: normal; }
+
+.container{
+    width: 640px;
+    height:480px;
+    margin: auto;
+    background: rgb(53, 98, 59);
+    margin-top: 10px;
+}
+.slime{
+    width:60px;
+    height:40px;
+    border: 1px solid black;
+    background: rgb(142, 177, 233);
+    position: absolute;
+    margin-top: 437px;
+    margin-left: 5px;
+    border-radius: 50% 50% 30% 30%;
+    display: flex;
+
+    .eye{
+        border-radius: 50% 50%;
+        width:10px;
+        height: 10px; 
+        background-color: black;
+        margin-top: 15px;
+        margin-left: 5px;
+        
+    }
+    div:first-of-type{
+        margin-left: 25px;
+    }
+}
+
+
+.small_box{
+    width:80px;
+    height:100px;
+    border: 1px solid black;
+    background: rgb(230, 149, 58);
+    position: absolute;
+    margin-top: 378px;
+    margin-left: 150px;
+    display: flex;
+}
